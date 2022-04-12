@@ -1,0 +1,8 @@
+Frase = input("Frase:")
+W = Frase.lower()
+x = W.count('a')
+y = W.find('a')
+z = W.rfind('a')
+print(x)
+print(y)
+print(z)

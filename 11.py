@@ -1,0 +1,6 @@
+I=float(input('Largura:'))
+II=float(input('Altura:'))
+a = round(I*II,2)
+p = round(a/2,2)
+print(f'Area:{a}m2')
+print(f'Necessary Paint:{p}L')

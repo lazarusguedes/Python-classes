@@ -1,0 +1,5 @@
+I = float(input('Price:'))
+a = round(I*0.95,2)
+b = round(I*0.05,2)
+print(f'New Price:R${a}')
+print(f'Discount:R${b}')

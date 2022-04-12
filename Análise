@@ -1,0 +1,38 @@
+x = "fUCk it"
+print(x[0::2])
+# vai do primeiro ao último, pulando de dois em dois
+print((x[0:3]))
+print(x[:2])
+print(x[2:])
+print(len(x))
+#diz o comprimento de uma variável
+print(x.count('c'))
+#diz quantas vezes aparece o caractere
+print(x.find('ck'))
+#diz em que posição na variável começou o 'ck'
+# o último valor fica sempre de fora ao buscar nas listas
+print('it' in x)
+#diz se 'it' existe em x, true or false
+print(x.replace('it','dough'))
+#substitui os caracteres mencionados pelos novos, mesmo em número maior
+print(x.upper())
+#transforma caracteres minúsculos em maiúsculos
+print(x.lower())
+#transforma caracteres maiúsculos em minúsculos
+print(x.capitalize())
+#transforma em título, deixando maiúsculo apenas a primeira letra maiúscula
+print(x.title())
+#capitaliza palavra a palavra, transformando a primeira de todas em maiúscula #
+#x.strip(): retiras espaços em branco, exceto os que estão entre caracteres (só os da direita, ,rstrip, e esquerda,lstrip)
+print(x.split())
+#transforma cada conjunto de caracteres em uma variável da lista x
+'-'.join(x)
+#junta os elementos de uma lista, usando '-' para separá-los
+print("""Kiss
+My
+Fucking
+Ass""")
+#OBS:aspas triplas permitem printar textos grandes com as quebras de linha já delimitadas
+x.replace(" ","")
+#Remove todos os espaços em branco
+#último item da lista: lista[-1]

@@ -1,0 +1,9 @@
+I = float(input('a:'))
+II = float(input('b:'))
+III = float(input('c:'))
+D = II**2-4*I*III
+x1 = (-II+D**(1/2))/(I*2)
+x2 = (-II-D**(1/2))/(I*2)
+print(f'Delta={D}')
+print(f'x1={x1}')
+print(f'x2={x2}')
